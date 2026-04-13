@@ -1,0 +1,26 @@
+.add{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.logo{
+height: 80px;
+width: auto;
+}
+
+.pesquisa{
+    display: flex;
+    border: solid 1px black;
+    height: 20px;
+    width: 200px;
+    align-items: center;
+}
+
+.caixa-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
