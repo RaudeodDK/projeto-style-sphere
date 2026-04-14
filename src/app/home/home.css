@@ -3,19 +3,22 @@
     background-color: black;
     justify-content: center;
     color: aliceblue;
+    height: 50px;
 }
 
 .logo{
-height: 80px;
+height: 100px;
 width: auto;
 }
 
 .pesquisa{
     display: flex;
     border: solid 1px black;
-    height: 20px;
-    width: 200px;
-    align-items: center;
+    height: 35px;
+    width: 500px;
+    align-items: baseline;
+    background-color:#D9D9D9;
+    gap: 5px;
 }
 
 .caixa-menu{
@@ -23,4 +26,33 @@ width: auto;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+}
+.icones-de-seleçao{
+    display: flex;
+    gap: 5px;
+  
+}
+.btn-icons{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+}
+
+.categorias{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    border: none;
+    justify-content: space-evenly;
+    
+}
+
+.ctg{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
 }
