@@ -1,0 +1,48 @@
+ .conteiner-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.banner{
+    width: 1600px;
+  height: 800px;
+  background-image: url('/banner/bnr1.png');
+  background-size: cover;
+   background-repeat: no-repeat;
+  align-items: center;
+    
+}
+
+.btn-baner{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: solid 1px #893E11;
+    color: #893E11;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 48px;
+    width: 185px;
+}
+
+.btn-next{
+
+    right: 20px;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    color: #893E11;
+}
+
+.btn-prev{
+    left: 20px;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    color: #893E11;
+}
