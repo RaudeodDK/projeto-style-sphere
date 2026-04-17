@@ -1,0 +1,23 @@
+.section-2{
+    width: 1600px;
+    height: 800px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     align-items: center;
+}
+
+.caixa-box-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}

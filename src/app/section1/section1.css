@@ -7,10 +7,10 @@
 .banner{
     width: 1600px;
   height: 800px;
-  background-image: url('/banner/bnr1.png');
   background-size: cover;
    background-repeat: no-repeat;
   align-items: center;
+   transition: background-image 0.5s ease;
     
 }
 
@@ -29,20 +29,17 @@
 }
 
 .btn-next{
-
-    right: 20px;
-    top: 50%;
     background-color: transparent;
     border: none;
     font-size: 50px;
     color: #893E11;
+    align-items: center;
 }
 
 .btn-prev{
-    left: 20px;
-    top: 50%;
     background-color: transparent;
     border: none;
     font-size: 50px;
     color: #893E11;
+    align-items:center ;
 }
