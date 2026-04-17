@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
 })
 export class Section2 {
   tours = [
-    { texto: 'Paris', img: 'img-1.png' },
-    { texto: 'Singapura', img: 'img-2.png' },
-    { texto: 'Roma', img: 'img-3.png' },
+    { texto: 'Camisa', img: 'img-1.png' },
+    { texto: 'Calça', img: 'img-2.png' },
+    { texto: 'variedades', img: 'img-3.png' },
      ];
 }
