@@ -1,0 +1,18 @@
+<section id="section-3">
+     <div class="conteiner">
+    <div class="titulo-3"><p >Conjuntos</p></div>
+   
+        <div class="box-itens">
+            @for(item of conjuntos;track item.texto) {
+                <div class="{{item.texto.toLowerCase()}}">
+                    <img class="box-img" src="/conjuntos/{{item.img}}" alt="imagem de {{item.texto}}">
+                    <p class="texto-titulo">{{item.texto}}</p>
+                    <p class="txt-valor">{{item.valor}}</p>
+                </div>
+            }
+        </div>
+    </div>
+    
+
+
+</section>

@@ -4,18 +4,33 @@
             <p class="box-titulo">Categorias</p>
         </div>
         <div class="box-categorias">
-
-            @for (item of tours; track item.texto){
-
-            <div class="{{item.texto.toLowerCase()}}">
-                <img class="box-img" src="/categorias/{{item.img}}" alt="imagem de {{item.texto}}">
-                    <p class="texto-titulo">{{item.texto}}</p>
+            <div class="box-img">
+                <div class="caixa-categoria">
+                     <img src="categorias/img-1.png" alt="">
+                     <p class="texto-titulo">Blusa</p>
                     <button class="btn-comprar">comprar</button>
+                </div>
+                 <div class="caixa-categoria">
+                     <img src="categorias/img-2.png" alt="">
+                     <p class="texto-titulo">Calça</p>
+                    <button class="btn-comprar">comprar</button>
+                </div>
+                 <div class="caixa-categoria">
+                     <img src="categorias/img-3.png" alt="">
+                     <p class="texto-titulo">Diversidade
+ com Estilo</p>
+                    <button class="btn-comprar">comprar</button>
+                </div>
+                
+
+                 
+            </div>
+               
                 
             </div>
-            }
+            
         </div>
-    </div>
+   
 
 
 </section>

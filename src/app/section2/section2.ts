@@ -8,9 +8,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './section2.css',
 })
 export class Section2 {
-  tours = [
-    { texto: 'Camisa', img: 'img-1.png' },
-    { texto: 'Calça', img: 'img-2.png' },
-    { texto: 'variedades', img: 'img-3.png' },
-     ];
+
+   
 }
